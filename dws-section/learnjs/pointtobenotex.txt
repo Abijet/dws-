@@ -1,0 +1,67 @@
+1. We cannot call variable which is not defined.
+2. NaN- Not a Number.
+
+"abc" ______________ true
+"" _________________ false
+" "_________________ true
+"a"_________________ true
+"false" ____________ true
+"true" _____________ true
+
+INTERVIEW QUESTION 
+What will be the output of following code?
+
+"false"_________________ true // in string
+0 ____________ false //in number
+"0" _____________ true //in string
+
+
+ () = paranthesis
+ {} = block
+ [] = array
+
+import shotcuts = ctrl + space.
+
+
+// truthy and falsy
+
+
+SORT :-
+       In javascript number sorting doesn't work properly, it provide result according to first word or number in the string. 
+       [9, 10] => [10, 9]
+       ["ae", "ac"] => ["ac", "ae"]
+       ["aaz", "aaa"] => ["aaa", "aaz"]
+       ["W", "a"] => ["W", "a"]
+       ["a", "W", "A", "ram"] => ["A", "W", "a", "ram"]
+
+
+OBJECT:- 
+        Array is made from value. Object is made from key, value pair.
+        Order does not matter in object.
+
+
+REST OPERATOR:-
+        Rest Operator does not declared in starting and middle. It must declared in end of the parameter.
+
+// API INTEGRATION
+
+
+1. What is Javascript ?
+=> Javascript is a single threaded, synchronous, and blocking programming language.
+
+2. What is Event Loop ?
+=> Event Loop is event observer that check whether javascript is empty or not, if javascript is empty it sent function from memory queue to javascript.
+
+3. What is asynchronous function ?
+=> the function which push task to a background is called asynchronous. for eg: setTimeOut and setInterval (where they push there task to node.js )
+
+Uses of or(||) for default value (not good for boolean)
+
+   =>  || can be used to initilize the variable
+
+   =>  During initilization first it looks for first value if the value is truthy value it returns the truthy value else it will search next truthy value
+
+   =>  If all are falsy value it returns last falsy value
+
+For nullis(??)
+   =>  for || all are falsy value but ?? only null and undefined are falsy value

@@ -1,0 +1,22 @@
+  SYNTAX
+
+ if(){
+
+ }
+ else{
+
+ }
+
+  FUNCTION
+
+  define 
+  call => using paranthesis
+  function will not run until and unless it is called
+  pass value
+  default value 
+  return
+       what does return do
+       function without return
+       function return
+
+  example

@@ -1,0 +1,6 @@
+let input = () =>{ 
+
+}
+
+let _input = input()
+console.log(_input)
