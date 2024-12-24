@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bubble-button{
+    width: 55px;
+    height: 50px;
+    margin: 0.6rem;
+    padding-top: 0.4rem;
+    background-color: gainsboro;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.random-btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    width: 90%;
+    height: auto;
+    margin: 2rem auto auto auto;
+    
+}
+.num-class{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: bisque;
+    width: 110px;
+    height: 80px; 
+    padding-top: 1rem;
+    border-radius: 10px;
+    
+
+}
+.score-class{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: bisque;
+    width: 140px;
+    height: 80px; 
+    padding-top: 1rem;
+    border-radius: 10px;
+}
+.score-class span{
+    color:brown;
+}
+.first-input{
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+    gap: 7rem;
+}
+.win-class{
+    height: 60vh;
+    text-align: center;
+    padding-top: 10rem ;
+    font-size: 3rem;
+    font-weight: bold;
+    color: brown;
+}

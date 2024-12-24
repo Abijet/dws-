@@ -1,0 +1,32 @@
+ useEffect(() => {
+    const generateBubbles = () => {
+      const newCuddle = [];
+      for (let i = 1; i < 97; i++) {
+        const random = Math.floor(Math.random() * 10);
+        newCuddle.push(
+          <div
+            className="bubble-button"
+            key={i}
+            onClick={() => {
+              if (random === num) {
+                setCuddle((prevCuddle) =>
+                  prevCuddle.map((value, i) => (
+                    <div className="bubble-button" key={i}>
+                      <div>{Math.floor(Math.random() * 10)}</div>
+                    </div>
+                  ))
+                );
+                setNum(Math.floor(Math.random() * 10));
+                setScore((prevScore) => prevScore + 1);
+              }
+            }}
+          >
+            <div>{random}</div>
+          </div>
+        );
+      }
+      setCuddle(newCuddle);
+    };
+
+    generateBubbles();
+  }, [num, score]);
